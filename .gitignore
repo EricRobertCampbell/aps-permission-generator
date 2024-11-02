@@ -1,0 +1,29 @@
+# LaTeX intermediate files
+*.aux
+*.log
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+
+# PDF files
+*.pdf
+
+# Generated tex files
+*_permission.tex
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Other temporary files
+*.tmp
+*.bak
+*.swp
+*.swp
+*.~ 
+
+# Data files
+data.json
+
