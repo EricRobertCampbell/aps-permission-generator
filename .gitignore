@@ -26,4 +26,5 @@ __pycache__/
 
 # Data files
 data.json
-
+old_data/*
+!old_data/README.md

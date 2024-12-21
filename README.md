@@ -16,10 +16,12 @@ This project is designed to automatically generate permission PDFs for speakers 
 2. **Run makefile**: Use the following command to generate PDFs:
 
 ```bash
-make
+make && make
 ```
 
-This command will run process.py, create the necessary .tex files, and compile them into PDF documents. 3. Clean Up: To remove generated PDF files and auxiliary files, run:
+This command will run process.py, create the necessary .tex files, and compile them into PDF documents.
+
+3. Clean Up: To remove generated PDF files and auxiliary files, run:
 
 ```bash
 make clean

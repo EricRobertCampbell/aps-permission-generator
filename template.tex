@@ -19,10 +19,10 @@
     \begin{minipage}[t]{0.6\textwidth}
         \textbf{\large Recording Permission Form}
     \end{minipage}%
-    \begin{minipage}{0.4\textwidth}
-        \raggedleft
-        \includegraphics[width=2cm]{APS_logo_white.png} % Adjust filename as needed
-    \end{minipage}
+    % \begin{minipage}{0.4\textwidth}
+    %     \raggedleft
+    %     \includegraphics[width=2cm]{APS_logo_white.png} % Adjust filename as needed
+    % \end{minipage}
 \end{center}
 }
 
@@ -40,19 +40,21 @@ For your talk for Alberta Palaeontological Society (APS), we need to know your w
 for sharing your presentation on the internet. Please select one of the
 following options:
 
-\begin{enumerate}[label=$\Box$, left=1em]
-    \item Don't share on the internet at all.
-    \item Broadcast via Zoom Pro only to those that receive the link (APS and CEGA members, and any others on our monthly e-mail notification list). The session will NOT be recorded.
-    \item Broadcast via Zoom Pro to those that receive the link (APS and CEGA members, and any others on our monthly e-mail notification list). The session would be recorded and we will upload it to the APS YouTube Channel later for the general public to view any time without cost at \url{https://youtube.com/@albertapaleo}. By choosing this option, I agree to have my presentation recorded and accessible to the general public via YouTube. I consent without expectation of compensation or remuneration, now or in the future. I hereby give my consent to the Alberta Palaeontological Society and its volunteers to use all or part of my presentation and its content.
-\end{enumerate}
+\begin{Form}
+    \begin{enumerate}[label={}, left=1em]
+        \item \CheckBox[name=doneshare,width=10pt,height=5pt,bordercolor={0 0 0}]{}\, Don't share on the internet at all.
+        \item \CheckBox[name=internetonly,width=10pt,height=5pt,bordercolor={0 0 0}]{}\, Broadcast via Zoom Pro only to those that receive the link (APS and CEGA members, and any others on our monthly e-mail notification list). The session will NOT be recorded.
+        \item \CheckBox[name=youtube, width=10pt,height=5pt,bordercolor={0 0 0}]{}\, Broadcast via Zoom Pro to those that receive the link (APS and CEGA members, and any others on our monthly e-mail notification list). The session would be recorded and we will upload it to the APS YouTube Channel later for the general public to view any time without cost at \url{https://youtube.com/@albertapaleo}. By choosing this option, I agree to have my presentation recorded and accessible to the general public via YouTube. I consent without expectation of compensation or remuneration, now or in the future. I hereby give my consent to the Alberta Palaeontological Society and its volunteers to use all or part of my presentation and its content.
+    \end{enumerate}
+\end{Form}
 
 \vspace{1cm}
 
 \noindent
-\begin{tabular}{@{}l@{\hspace{1em}}p{8cm}@{}}
+\begin{tabular}[b]{@{}l@{\hspace{1em}}p{8cm}@{}}
     Signature: & \rule{8cm}{0.4pt} \\
     \\[1cm] % Adds 1cm vertical space
-    Date: & \rule{8cm}{0.4pt} \\
+    Date: & \TextField[height=10pt,bordercolor={0 0 0},width=8cm]{} \\[5pt]
 \end{tabular}
 
 \end{document}
