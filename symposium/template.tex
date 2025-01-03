@@ -1,0 +1,55 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{amssymb}
+
+\geometry{margin=1in}
+
+\newcommand{\presenterName}{}
+\newcommand{\presentationDate}{}
+\newcommand{\presentationTitle}{}
+
+\date{}
+\author{}
+\title{%
+    \begin{minipage}{\textwidth}
+        \centering
+        \makebox[0pt][c]{\includegraphics[height=1cm]{APS_logo_white.png}\hspace{0.5cm}PALEO 2025}\\
+    \end{minipage}%
+    \vspace{1cm}
+    Recording Permission Form
+}
+
+
+\begin{document}
+
+\maketitle
+
+\noindent
+Presenter: \textbf{\presenterName} \\
+Date: \textbf{\presentationDate} \\
+Title: \textbf{\presentationTitle} \\
+
+\noindent
+For your talk for APS Paleo 2025 symposium, we need to know your wishes for sharing your presentation on the internet. Please select one of the following options:
+
+\begin{Form}
+    \begin{enumerate}[label={}, left=1em]
+        \item \CheckBox[name=doneshare,width=10pt,height=5pt,bordercolor={0 0 0}]{}\, Don't share on the internet at all.
+        \item \CheckBox[name=internetonly,width=10pt,height=5pt,bordercolor={0 0 0}]{}\, Broadcast via Zoom Pro only to those that receive the link (APS and CEGA members, and any others on our monthly e-mail notification list). The session will NOT be recorded.
+        \item \CheckBox[name=youtube, width=10pt,height=5pt,bordercolor={0 0 0}]{}\, Broadcast via Zoom Pro to those that receive the link (APS and CEGA members, and any others on our monthly e-mail notification list). The presentation would be recorded and we will upload it to the APS YouTube Channel later for the general public to view any time without cost at \url{https://youtube.com/@albertapaleo}. By choosing this option, I agree to have my presentation recorded and accessible to the general public via YouTube. I consent without expectation of compensation or remuneration, now or in the future. I hereby give my consent to the Alberta Palaeontological Society and its volunteers to use all or part of my presentation and its content.
+    \end{enumerate}
+\end{Form}
+
+\vspace{1cm}
+
+\noindent
+\begin{tabular}[b]{@{}l@{\hspace{1em}}p{8cm}@{}}
+    Signature: & \rule{8cm}{0.4pt} \\
+    \\[1cm] % Adds 1cm vertical space
+    Date: & \TextField[height=10pt,bordercolor={0 0 0},width=8cm]{} \\[5pt]
+\end{tabular}
+
+\end{document}

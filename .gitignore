@@ -23,6 +23,7 @@ __pycache__/
 *.swp
 *.swp
 *.~ 
+.DS_Store
 
 # Data files
 data.json
